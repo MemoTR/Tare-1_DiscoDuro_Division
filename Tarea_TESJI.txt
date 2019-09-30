@@ -1,0 +1,48 @@
+INICIO
+   TAREA: DISCO DURO LOGICO:
+   Estructura:
+   -Los discos duros tienen características que definen su desempeño como son la capacidad de almacenamiento, su velocidad de rotación, tiempo de acceso, tasa de transferencia de datos y su memoria caché contenida en su controladora:
+   -El disco duro posee interfaces los cuales establecen una conexión entre el mecanismo del disco duro y el bus del sistema, entre ellos podemos mencionar a los más importantes como el IDE y el SCSI.
+   -El disco duro este compuesto por las siguientes estructuras (Estructura Lógica):
+   La estructura lógica de un disco duro está formada por:
+   -Sector de arranque
+   -Espacio particionado.
+   -Espacio sin particionar.
+
+   -Sector de arranque: Es el primer sector de un disco duro en él se almacena la tabla de particiones y un programa pequeño llamado Master Bot. Este programa se encarga de leer la tabla de particiones y ceder el control al sector de arranque de la partición activa, en caso de que no    existiese partición activa mostraría un mensaje de error.
+   -Espacio particionado: Es el espacio del disco que ha sido asignado a alguna partición.
+   -Espacio sin particionar: Es el espacio del disco que no ha sido asignado a ninguna partición.
+   COMO CALCULAR LALONGITUD DE ALMACXENAMIENTO EN SU CAPACIDAD:
+   -Para comprender esta parte se tomará este:
+   -El disco duro puede tener los datos siguientes en su etiqueta:
+   -255 cabezas, 12161 cilindros 63 sectores/pista
+   -La capacidad de un disco duro se calcula con la siguiente formula:
+   -Cabezas * Cilindros * Sectores * 512 Bytes por cada sector
+   -Entonces tenemos que el disco tiene:
+   -255 * 12161 = 3’101,055 cilindrosY
+   -3’101,055 de cilindros * 63 sectores c/u = 195,366,465 Sectores
+   -Ahora bien
+   -195,366,465 * 512 Bytes podría ser (que es lo más normal, pero puede cambiar) = 100,027,630,080 Bytes
+
+   -Tomando en cuenta que:
+   -Si un Kb es igual a 1024 bytes entonces tiene 97’683,232.5 Kb
+   -Si un Mb es igual a 1024 Kb entonces tiene 95,393.78173828125 Mb
+   -Si Un Gb es igual a 1024 Mb entonces tiene 93.157989978790283203125 Gb
+
+   COMO SE DIVIDE EL DISCO DURO:
+   -Haga clic en el botón Inicio y, después, haga clic en Panel de control.
+   -Haga clic en Sistema y seguridad.
+   -Haga clic en Herramientas administrativas.
+   -Haga doble clic en Administración de equipos. ...
+   -Haga clic en Administración de discos, que se encuentra en Almacenamiento
+   -Para hacer una nueva partición vas a tener que hacerle hueco. Por eso, haz clic derecho sobre el disco duro en el que quieras hacer la partición (1), y cuando te aparezca el menú desplegable, elige la opción Reducir Volumen (2) para hacer más pequeña la primera partición del disco.    También puedes Eliminar volumen para borrar una partición y hacer hueco así a la nueva, o incluso Formatear el disco para limpiarlo antes de empezar a particionar.
+   -Si eliges reducir el volumen o partición, te aparecerá una ventana en la que tienes que poner cuánto espacio quieres dejar libre en el campo Tamaño del espacio que desea reducir. La cantidad la tienes que poner en MB, y es importante que te dijes en el espacio disponible a la hora de    tomar la decisión.
+   -Cuando termine el procedimiento te aparecerá en negro una zona llamada No Asignado, que es la capacidad del disco duro disponible para crear nuevas particiones. Haz clic derecho sobre este espacio.
+   -Al hacer clic derecho sobre el espacio libre del disco duro te aparecerá una ventana emergente. En ella pulsa sobre la opción Nuevo volumen simple para abrir un asistente que te guiará en el proceso de crear la nueva partición.
+   -Tras pulsar Seguir en la ventana de introducción del asistente, irás a una nueva ventana en la que tienes que elegir el tamaño de tu nueva partición. Automáticamente el sistema te pondrá todo el espacio disponible, pero lo podrás editar para elegir una cantidad de MB que tú quieras. Cuando    lo tengas, pulsa Siguiente.
+   -Como Windows no concibe que quieras utilizar una partición para instalar otro sistema operativo, en el siguiente paso te pedirá que le añadas una letra a la unidad para que la partición haga de unidad de almacenamiento extra. Sin embargo, también tienes la opción No asignar una letra o    ruta de acceso de unidad para que se cree una partición, pero Windows no empiece a utilizarla como unidad de almacenamiento.
+   -Como Windows no concibe que quieras utilizar una partición para instalar otro sistema operativo, en el siguiente paso te pedirá que le añadas una letra a la unidad para que la partición haga de unidad de almacenamiento extra. Sin embargo, también tienes la opción No asignar una letra o    ruta de acceso de unidad para que se cree una partición, pero Windows no empiece a utilizarla como unidad de almacenamiento.
+   -Y, por último, llegarás a una pantalla final en la que se te resumirá la configuración de tu nueva partición. Pulsa Finalizar para aceptar y que Windows cree tu nueva partición, y si quieres cambiar algo pulsa Atrás.
+   fin
+
+
